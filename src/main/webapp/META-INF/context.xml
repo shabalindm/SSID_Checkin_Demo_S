@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/checkin"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username=""
+              password=""
+              create="true"
+              driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+              url="jdbc:derby:ssidcheckin;create=true"
+              poolPreparedStatements="true"
+              maxActive="10"
+              maxIdle="4"/>
+
+</Context>

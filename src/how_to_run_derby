@@ -1,0 +1,14 @@
+
+Download Derby and run derbyrun.jar
+>java -jar <filepath>/derbyrun.jar ij
+
+Make database
+>CONNECT 'jdbc:derby:ssidcheckin;create=true';
+
+Execute CREATE TABLE commands
+
+
+java -jar d:\derby\lib\derbyrun.jar ij
+òõ¨¸ø  ij 10.12
+ij> connect "jdbc:derby:ssidcheckin;create=true"
+>
